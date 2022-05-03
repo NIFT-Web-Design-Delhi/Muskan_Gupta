@@ -389,10 +389,48 @@ font-size: 30px;}
 #work {
     margin-bottom: 80px;
 }
-       
-   
 
-       
+#contact{
+    display: inline-block;
+}
+#contact img {
+    width: 70px;
+    height: 70px;   
+    }
+
+    #phone img, #behance, #insta {
+        display: inline-block;
+        overflow: hidden;
+        position: fixed;
+        border:4px solid #ffffff;
+        border-radius: 60px;
+        position: fixed;
+        width: 70px;
+        height: 70px;
+        bottom: 0;
+        right: 0; 
+
+    }
+
+#phone img {
+    
+    top: 444px;
+   
+    
+}
+
+
+ #behance {
+  
+    top: 544px;}
+    
+
+#insta {
+    top: 644px;
+}
+
+
+
      
               
                 
