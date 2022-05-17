@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Lato:wght@100;200;300;400;700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
 
 body{
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   letter-spacing: 0.5px;
+  color: #5c3f21;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .title-header{
@@ -61,7 +68,7 @@ header a {
 }
 
 .nav-item{
-  font-size:20;
+  font-size:  16px;;
   color: black;
 }
 
@@ -80,6 +87,7 @@ header a {
 
 .flex-container {
     display: flex;
+    
 }
 
 .flex-child {
@@ -96,6 +104,10 @@ header a {
   margin-top: 100px;
   font-size: 17;
 }
+
+.introduction hr {
+    margin-top: 70px;
+    } 
 
 .intro-image{
   margin-left: 100px;
@@ -127,11 +139,23 @@ float: right;
   width: 40%;
   padding: 20px;
   font-size: 22;
+  padding-bottom: 30px;
+  line-height: 40px;
+  
+}
+
+.hindi1 hr{
+margin-top: 70px;
 }
 
 .meet-the-artisan{
   background-color: #FDFAF5;
   padding-top: 50px;
+}
+
+.meet-the-artisan img {
+border-radius: 10px;
+
 }
 
 .flex-container1 {
@@ -161,7 +185,7 @@ float: right;
 }
 
 .intro{
-  font-size: 20;
+  font-size: 16;
 }
 
 .motifs{
@@ -191,6 +215,10 @@ float: right;
 .product-range1{
   margin: 30px;
   font-size: 20;
+}
+
+.product-range1 .product-image-h {
+  border-radius: 10px;
 }
 
 
@@ -286,7 +314,7 @@ footer {
 .process{
   margin: 0px;
   background-color: #FDF7EF;
-  padding:50px 100px 50px 100px;
+  padding:50px 200px 50px 200px;
 }
 
 .process-image{
@@ -337,25 +365,29 @@ footer {
 }
 
 .map-image:hover{
-  height: 600px;
-  width: 600px;
-  transition-duration: 2s;
+  height: 510px;
+  width: 510px;
+  transition-duration: 0.2s;
 }
 
 .know-more:hover{
-  font-size: 22;
-  transition-duration: 500ms;
+  font-size: 19;
+  transition-duration: 0.5s;
 }
 
 .product-image-h:hover{
-  height: 350px;
-  width: 350px;
+  height: 320px;
+  width: 320px;
   transition-duration: 0.5s;
 }
 
 .hvrbox,
 .hvrbox * {
 	box-sizing: border-box;
+}
+
+.hvrbox img {
+  border-radius: 10px;
 }
 .hvrbox {
 	position: relative;
@@ -416,9 +448,9 @@ footer {
 }
 
 .product-image-h1:hover{
-  height: 230px;
-  width: 330px;
-  transition-duration: 1s;
+  height: 210px;
+  width: 260px;
+  transition-duration: 0.3s;
 }
 
 .nav-item:hover{
@@ -434,12 +466,6 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
-
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 
 
 .slider {
@@ -470,7 +496,7 @@ footer {
   z-index: 10;
   outline: 6px solid #ccc;
   outline-offset: -6px;
-  box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  box-shadow: 0 0 0 0 #F1C06C, 0 0 0 0 rgba(51, 51, 51, 0);
   cursor: pointer;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -553,24 +579,38 @@ footer {
   max-width: 300px;
 }
 
+.slider__contents img {
+/* padding-bottom: 10px; */
+border-radius: 8px;
+}
+.slider__contents p{
+  padding-bottom: 60px;
+  font-size: 15px;
+}
+
+.slider__contents h2 {
+  color:#5c3f21;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 @-webkit-keyframes check {
   50% {
-    outline-color: #333;
-    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+    outline-color: #F1C06C;
+    box-shadow: 0 0 0 12px #F1C06C, 0 0 0 36px rgba(51, 51, 51, 0.2);
   }
   100% {
-    outline-color: #333;
-    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+    outline-color: #F1C06C;
+    box-shadow: 0 0 0 0 #F1C06C, 0 0 0 0 rgba(252, 244, 134, 0);
   }
 }
 
 @keyframes check {
   50% {
-    outline-color: #333;
-    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+    outline-color: #F1C06C;
+    box-shadow: 0 0 0 8px #F1C06C, 0 0 0 px rgba(51, 51, 51, 0.2);
   }
   100% {
-    outline-color: #333;
-    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+    outline-color: #F1C06C;
+    box-shadow: 0 0 0 0 #F1C06C, 0 0 0 0 rgba(51, 51, 51, 0);
   }
 }
